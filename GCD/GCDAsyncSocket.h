@@ -46,7 +46,7 @@ typedef enum GCDAsyncSocketError GCDAsyncSocketError;
 	uint32_t flags;
 	uint16_t config;
 	
-	__weak id delegate;
+	id delegate;
 	dispatch_queue_t delegateQueue;
 	
 	int socket4FD;
